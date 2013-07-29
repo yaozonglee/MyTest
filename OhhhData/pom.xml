@@ -25,20 +25,4 @@
       </plugin>
     </plugins>
   </build>
-  <dependencies>
-  	<dependency>
-  		<groupId>com.imc.platform</groupId>
-  		<artifactId>platform-core-jena-impl</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-
-  		<exclusions>
-
-         <exclusion>
-            <groupId>spring-core-3.2.3</groupId>
-            <artifactId>spring-core-3.2.3</artifactId>
-         </exclusion>
-      </exclusions>
-
-  	</dependency>
-  </dependencies>
 </project>
